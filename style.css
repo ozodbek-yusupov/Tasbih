@@ -31,7 +31,7 @@ body {
 }
 .container input{
     width: 100px;
-    height: 100px;
+    height: 100%;
     text-align: center;
     outline: none;
     border: 2px solid red;
