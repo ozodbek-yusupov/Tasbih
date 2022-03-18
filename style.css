@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+@font-face {
+    src: url(digital-7.ttf);
+    font-family: digital-7;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://i.ytimg.com/vi/4XO3kVUNJac/maxresdefault.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.container {
+    border: 3px solid red;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px;
+    background-color: orange;
+    box-shadow: 0px 0px 0  2px black;
+}
+.container input{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    outline: none;
+    border: 2px solid red;
+    border-radius: 5px;
+    font-size: 90px;
+    padding: 5px;
+    background: transparent;
+    box-shadow: 0px 0px 0 2px black;
+    font-family: digital-7;
+    margin: 5px 0;
+    text-shadow: 1px 1px 0 red;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.buttons button {
+    margin: 1px 0;
+    border: 2px solid red;
+    outline: none;
+    border-radius: 3px;
+    box-shadow: 0px 0px 0  2px black;
+    transition: 0.2s;
+}
+.buttons button:active {
+    transform: scale(0.9)
+}
+span {
+    text-align: center;
+    font-weight: 900;
+    text-shadow: 1px 1px 0 red;
+}
