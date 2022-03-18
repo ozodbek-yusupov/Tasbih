@@ -27,6 +27,7 @@ body {
     padding: 5px;
     background-color: orange;
     box-shadow: 0px 0px 0  2px black;
+    transform: scale(3)
 }
 .container input{
     width: 100px;
@@ -35,7 +36,7 @@ body {
     outline: none;
     border: 2px solid red;
     border-radius: 5px;
-    font-size: 90px;
+    font-size: 60px;
     padding: 5px;
     background: transparent;
     box-shadow: 0px 0px 0 2px black;
